@@ -100,9 +100,9 @@ Having an active and healthy commit history on GitHub is important for your futu
 ​
 ## DB Setup
 ​
-- [ ] Inside your `burger` directory, create a folder named `db`.
+- [x] Inside your `burger` directory, create a folder named `db`.
 ​
-- [ ] In the `db` folder, create a file named `schema.sql`. Write SQL queries this file that do the following:
+- [x] In the `db` folder, create a file named `schema.sql`. Write SQL queries this file that do the following:
 ​
    * Create the `burgers_db`.
    * Switch to or use the `burgers_db`.
@@ -111,11 +111,11 @@ Having an active and healthy commit history on GitHub is important for your futu
      * **burger_name**: a string.
      * **devoured**: a boolean.
 ​
-- [ ] Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries.
+- [x] Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries.
 ​
-- [ ] Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
+- [x] Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
 ​
-- [ ] Now you're going to run these SQL files.
+- [x] Now you're going to run these SQL files.
 ​
    * Make sure you're in the `db` folder of your app.
 ​
@@ -129,15 +129,15 @@ Having an active and healthy commit history on GitHub is important for your futu
 ​
 ## Config Setup
 ​
-- [ ] Inside your `burger` directory, create a folder named `config`.
+- [x] Inside your `burger` directory, create a folder named `config`.
 ​
-- [ ] Create a `connection.js` file inside `config` directory.
+- [x] Create a `connection.js` file inside `config` directory.
 ​
    * Inside the `connection.js` file, setup the code to connect Node to MySQL.
 ​
    * Export the connection.
 ​
-- [ ] Create an `orm.js` file inside `config` directory.
+- [x] Create an `orm.js` file inside `config` directory.
 ​
    * Import (require) `connection.js` into `orm.js`
 ​
