@@ -9,3 +9,9 @@ function insertOne() {
 function updateOne() {
     console.log('selectAll');
 }
+
+module.exports = {
+    selectAll,
+    insertOne,
+    updateOne
+}
